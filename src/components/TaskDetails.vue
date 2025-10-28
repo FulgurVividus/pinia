@@ -10,10 +10,10 @@
   </section>
 </template>
 
-<script setup lang="js">
-import { defineProps } from 'vue';
+<script setup>
+import { defineProps } from "vue";
 
 const { task } = defineProps({
-  task: Object
-})
+  task: Object,
+});
 </script>
